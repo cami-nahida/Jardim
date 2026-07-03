@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #cde8d4;
+    color: #1a1033;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 48px ;
+    position: sticky;
+    background-color: rgba(255, 255, 255, 0.92);
+    top: 0;
+    backdrop-filter: blur(12px);
+    border-bottom: 2px solid rgba(108, 43, 255, 0.07);
+}
+p{
+    color: black;
+}
+.btn-entrar{
+    background-color: olive;
+    color: black;
+    border: none;
+    padding: 9px 20px;
+    cursor: pointer;
+    gap: 6px;
+    transform: background .2s, transform .15s;
+}
+.btn-entrar:hover{
+    background: olivedrab;
+    transform: translateY(-1px);    
+}
+.btn-entrar svg{
+    width: 14px; height: 14px;
+}
+.hero{
+    padding: 60px 48px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.hero-topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.hero-text{
+    flex: 1;
+    min-width: 400px;
+}
+.hero-title{
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    font-size: 102px;
+    line-height: .85;
+    letter-spacing: 5px;
+    color: #0a5225;
+}
+.hero-title .nahida{
+    color: #46b142;
+}
+.hero-menu{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: auto;
+}
