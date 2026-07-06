@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #fff;
+    background-color: #CDE8D4;
     color: #6C9B76;
     overflow-x: hidden;
 }
@@ -15,7 +15,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 18px 48px ;
-    position: sticky;
+    
     background-color: rgba(101, 170, 80, 0.92);
     top: 0;
     backdrop-filter: blur(12px);
@@ -24,7 +24,7 @@ nav{
 .nav-logo{
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 3px;
 }
 .nav-links{
     display: flex;
@@ -53,12 +53,34 @@ nav{
 }
 
 .btn-entrar:hover{
-    background: #CDE8D4;
+    background: rgb(38, 139, 38);
     transform: translateY(-1px);    
 }
 .btn-entrar svg{
     width: 14px; height: 14px;
 }
+.btn-entrar:hover{
+    background: green;
+    transform: translateY(-1px);    
+}
+
+.btn-entrar{
+    background-color: rgb(52, 151, 52);
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    cursor: pointer;
+    gap: 6px;
+    transform: background .2s, transform .15s;
+}
+.btn-entrar:hover{
+    background: green;
+    transform: translateY(-1px);    
+}
+.btn-entrar svg{
+    width: 14px; height: 14px;
+}
+
 .hero{
     padding: 60px 48px;
     position: relative;
@@ -157,7 +179,7 @@ nav{
     display: inline-flex;
     align-items: center;
     gap: 14px;
-    background-color: #12662b;
+    background-color: rgb(28, 116, 28);
     color: white;
     border: none;
     border-radius: 50px;
@@ -187,7 +209,7 @@ nav{
     padding: 80px 48px 60px;
 }
 .serviços-title{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     font-size: 46px;
     text-align: center;
@@ -239,14 +261,14 @@ nav{
     position: relative;
     background: linear-gradient(to top rgba(20,10,40,0.82) 0%, transparent 100%);
     padding: 20px 18px 18px;
-    color: #fff;
+    color: #006400;
 }
 .card-info h3{
     font-family: sans-serif;
     margin-bottom: 6px;
 }
 .card-info p{
-    color:white;
+    color:#0d390c;
     line-height: 1.5;
     margin-bottom: 12px;
 }
@@ -254,11 +276,11 @@ nav{
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    color: white;
+    color: green;
 }
 .card-tag::before{
     content: "🌿";
-    color: #022009;
+    color: #0d390c;
 }
 .carousel-controls{
     display: flex;
@@ -290,7 +312,7 @@ nav{
     align-items: center;
 }
 footer{
-    background-color: #f6f4ff;
+    background-color: #667f48;
     padding: 24px 48px;
     display: flex;
     align-items: center;
@@ -298,7 +320,7 @@ footer{
     border-top: 1px solid rgba(108,43,255,0.08);
 }
 .footer-copy{
-    color: #5519ee;
+    color:white;
     letter-spacing: 5px;
 }
 .footer-socials{

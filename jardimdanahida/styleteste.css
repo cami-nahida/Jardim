@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #fff;
+    background-color: #cde8d4;
     color: #1a1033;
     overflow-x: hidden;
 }
@@ -20,9 +20,12 @@ nav{
     backdrop-filter: blur(12px);
     border-bottom: 2px solid rgba(108, 43, 255, 0.07);
 }
+p{
+    color: black;
+}
 .btn-entrar{
-    background-color: #6c2bff;
-    color: white;
+    background-color: olive;
+    color: black;
     border: none;
     padding: 9px 20px;
     cursor: pointer;
@@ -30,7 +33,7 @@ nav{
     transform: background .2s, transform .15s;
 }
 .btn-entrar:hover{
-    background: #5519ee;
+    background: olivedrab;
     transform: translateY(-1px);    
 }
 .btn-entrar svg{
